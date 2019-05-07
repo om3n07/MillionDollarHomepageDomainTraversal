@@ -1,0 +1,10 @@
+{
+    "files": [
+        "index.ts",
+        "domains.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5"
+    }
+}

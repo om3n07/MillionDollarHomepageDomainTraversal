@@ -1,0 +1,28 @@
+{
+  "name": "milliondollarhomepagedomaintraversal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "gulp && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/om3n07/MillionDollarHomepageDomainTraversal.git"
+  },
+  "author": "Matt Martell",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/om3n07/MillionDollarHomepageDomainTraversal/issues"
+  },
+  "homepage": "https://github.com/om3n07/MillionDollarHomepageDomainTraversal#readme",
+  "dependencies": {
+    "@types/node": "^11.13.8"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.1",
+    "typescript": "^3.4.5"
+  }
+}
