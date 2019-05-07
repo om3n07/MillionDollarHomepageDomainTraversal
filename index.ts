@@ -1,6 +1,7 @@
 import domains from './domains';
 var http = require('https');
 
+// YOUR API KEY HERE
 const apiKey = '';
 const fs = require('fs');
 var writer = fs.createWriteStream('./output/results.txt', {flags: 'a'});
@@ -17,7 +18,6 @@ function logDomainAvailability(name: string) {
     http.get(`https://domain-availability-api.whoisxmlapi.com/api/v1?apiKey=${apiKey}&domainName=${name}`, (resp: any) => {
         let data = '';
 
-        // A chunk of data has been recieved.
         resp.on('data', (chunk: any) => {
           data += chunk;
         });
